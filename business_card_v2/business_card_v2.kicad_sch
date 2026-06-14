@@ -2716,7 +2716,7 @@
 	)
 	(rectangle
 		(start 445.77 135.89)
-		(end 546.1 190.5)
+		(end 546.1 207.01)
 		(stroke
 			(width 0)
 			(type default)
@@ -3284,6 +3284,16 @@
 	)
 	(wire
 		(pts
+			(xy 483.87 186.69) (xy 483.87 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15cf6312-9881-4e06-9aa7-fe8ab2453c30")
+	)
+	(wire
+		(pts
 			(xy 480.06 168.91) (xy 482.6 168.91)
 		)
 		(stroke
@@ -3591,6 +3601,16 @@
 			(type default)
 		)
 		(uuid "3c89ec8f-70e3-4c87-9f0b-432e3806d2f7")
+	)
+	(wire
+		(pts
+			(xy 468.63 198.12) (xy 468.63 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "404a4cd3-7fad-4e80-9ec9-7c7e9af3b0c5")
 	)
 	(wire
 		(pts
@@ -4181,6 +4201,16 @@
 			(type default)
 		)
 		(uuid "834020fb-03ae-4b85-90f1-eda93ff17583")
+	)
+	(wire
+		(pts
+			(xy 483.87 198.12) (xy 483.87 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83a128fa-d94b-4a86-8bca-e8bd36aa97a6")
 	)
 	(wire
 		(pts
@@ -5224,6 +5254,16 @@
 	)
 	(wire
 		(pts
+			(xy 468.63 186.69) (xy 468.63 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0f81e13-a1a9-43bc-8430-edc7b3cf907d")
+	)
+	(wire
+		(pts
 			(xy 488.95 54.61) (xy 488.95 57.15)
 		)
 		(stroke
@@ -5742,6 +5782,16 @@
 		)
 		(uuid "a38b971b-6fb3-48ad-86ac-488924fef82d")
 	)
+	(label "BUS_MOSI"
+		(at 468.63 198.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a5564686-f2ae-4d28-a18c-3e148c527120")
+	)
 	(label "NRST_S8"
 		(at 523.24 171.45 0)
 		(effects
@@ -5911,6 +5961,16 @@
 			(justify right bottom)
 		)
 		(uuid "d2989711-6702-4aa7-aa85-24dad1176a29")
+	)
+	(label "BUS_MISO"
+		(at 483.87 198.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2b20418-f742-464a-b57a-062f5714a9ed")
 	)
 	(label "NRST_S2"
 		(at 151.13 68.58 180)
@@ -7134,7 +7194,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 369.57 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -7290,7 +7350,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 383.54 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -8016,7 +8076,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 355.6 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -9598,6 +9658,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 468.63 186.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2bfb6723-7a61-4ceb-bd5f-566eb0eb50c8")
+		(property "Reference" "#PWR024"
+			(at 468.63 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 468.63 181.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 468.63 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 468.63 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 468.63 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c08aa9cc-c3d3-4558-8e62-82c8b0867221")
+		)
+		(instances
+			(project "business_card_v2"
+				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 91.44 68.58 270)
 		(mirror x)
@@ -9709,7 +9847,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 425.45 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -12626,6 +12764,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 483.87 186.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53e145d5-f274-4386-bbf7-b62d091b3dee")
+		(property "Reference" "#PWR025"
+			(at 483.87 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 483.87 181.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 483.87 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 483.87 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 483.87 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e106961c-00e9-4a32-b57a-a539727a8951")
+		)
+		(instances
+			(project "business_card_v2"
+				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 254 256.54 0)
 		(mirror y)
@@ -13386,6 +13602,88 @@
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
 					(reference "S5_GP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 483.87 191.77 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5dc57b99-db73-4112-859a-5c2b89acc97c")
+		(property "Reference" "R13"
+			(at 486.41 190.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 486.41 193.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 485.648 191.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 483.87 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 483.87 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5df26f7a-5a21-4e51-9488-1221e21d91ee")
+		)
+		(pin "2"
+			(uuid "778c9d06-2c05-48a1-853d-4164789f7bb8")
+		)
+		(instances
+			(project "business_card_v2"
+				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -14541,7 +14839,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 355.6 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -17171,7 +17469,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 397.51 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -17926,7 +18224,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 411.48 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -18317,7 +18615,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 355.6 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -18763,7 +19061,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 369.57 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -19214,7 +19512,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 412.75 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -19293,7 +19591,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 397.51 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -19449,7 +19747,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 369.57 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -20312,7 +20610,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 383.54 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -21479,7 +21777,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 383.54 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -23482,6 +23780,88 @@
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 468.63 191.77 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4a0d15c-fcc7-43eb-b9ca-5dcf9ac444e2")
+		(property "Reference" "R12"
+			(at 471.17 190.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 471.17 193.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 470.408 191.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 468.63 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 468.63 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "03dacfaa-b3c6-4c00-9321-913d05b71fd2")
+		)
+		(pin "2"
+			(uuid "95e699e3-4f12-4a6b-91cc-e0475b1b024a")
+		)
+		(instances
+			(project "business_card_v2"
+				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
+					(reference "R12")
 					(unit 1)
 				)
 			)
