@@ -2865,12 +2865,6 @@
 		(uuid "28cb1d37-4d2a-4aa9-ad26-aca2e28bc679")
 	)
 	(junction
-		(at 245.11 295.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2abab3f3-4876-497a-9e37-eb35a932f6bb")
-	)
-	(junction
 		(at 101.6 318.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3073,6 +3067,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e36a56be-e0ce-45aa-b332-57e815b38468")
+	)
+	(junction
+		(at 245.11 295.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e75f1fd9-4a09-489a-a9a2-02e76d26fc55")
 	)
 	(junction
 		(at 205.74 93.98)
@@ -3310,7 +3310,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 300.99) (xy 217.17 300.99)
+			(xy 212.09 300.99) (xy 217.17 300.99)
 		)
 		(stroke
 			(width 0)
@@ -4410,7 +4410,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 300.99) (xy 245.11 300.99)
+			(xy 250.19 300.99) (xy 245.11 300.99)
 		)
 		(stroke
 			(width 0)
@@ -4870,7 +4870,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 298.45) (xy 217.17 298.45)
+			(xy 212.09 298.45) (xy 217.17 298.45)
 		)
 		(stroke
 			(width 0)
@@ -5208,7 +5208,7 @@
 		)
 		(uuid "fe4bfbe7-c1d3-424d-8eb2-4be504998200")
 	)
-	(label "NRST_S2"
+	(label "NRST_S6"
 		(at 469.9 200.66 180)
 		(effects
 			(font
@@ -5218,7 +5218,7 @@
 		)
 		(uuid "02b8465f-c975-440c-a087-c49f1f80a870")
 	)
-	(label "NRST_S8"
+	(label "NRST_S1"
 		(at 513.08 205.74 0)
 		(effects
 			(font
@@ -5368,7 +5368,7 @@
 		)
 		(uuid "2e836f49-6472-47b5-bffd-a1e6e7b4d400")
 	)
-	(label "NRST_S4"
+	(label "NRST_S8"
 		(at 469.9 205.74 180)
 		(effects
 			(font
@@ -5429,7 +5429,7 @@
 		(uuid "41dd5b00-533f-453c-a652-ee106367665a")
 	)
 	(label "BUS_MISO"
-		(at 214.63 298.45 180)
+		(at 212.09 298.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5448,7 +5448,7 @@
 		)
 		(uuid "50bf8fcd-71da-45d4-8c6c-4fb61bcef173")
 	)
-	(label "NRST_S6"
+	(label "NRST_S3"
 		(at 513.08 210.82 0)
 		(effects
 			(font
@@ -5519,7 +5519,7 @@
 		(uuid "7ab5e479-7dc1-4c7a-bad3-d56e9eb16b57")
 	)
 	(label "SWIO_N8"
-		(at 247.65 300.99 0)
+		(at 250.19 300.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5528,7 +5528,7 @@
 		)
 		(uuid "7c53dc8d-72da-4d8c-8ce6-99f328237539")
 	)
-	(label "NRST_S1"
+	(label "NRST_S5"
 		(at 469.9 190.5 180)
 		(effects
 			(font
@@ -5548,7 +5548,7 @@
 		)
 		(uuid "84481813-fbcd-4ca4-aa1e-780009a5d32e")
 	)
-	(label "NRST_S5"
+	(label "NRST_S4"
 		(at 469.9 213.36 180)
 		(effects
 			(font
@@ -5638,7 +5638,7 @@
 		)
 		(uuid "af79408d-61d0-49d8-8d30-ac0f7a984843")
 	)
-	(label "NRST_S7"
+	(label "NRST_S2"
 		(at 513.08 208.28 0)
 		(effects
 			(font
@@ -5699,7 +5699,7 @@
 		(uuid "c36becc7-d689-482d-8441-086a80c6d323")
 	)
 	(label "BUS_MOSI"
-		(at 214.63 300.99 180)
+		(at 212.09 300.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5738,7 +5738,7 @@
 		)
 		(uuid "c8905b3f-4284-4e92-af02-c4be42a5290c")
 	)
-	(label "NRST_S3"
+	(label "NRST_S7"
 		(at 469.9 203.2 180)
 		(effects
 			(font
@@ -5870,7 +5870,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 217.17 318.77 90)
+		(at 245.11 298.45 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5880,7 +5880,7 @@
 		(dnp no)
 		(uuid "01d86ad1-35e1-4999-86d3-81077b54116a")
 		(property "Reference" "S8_GP4"
-			(at 209.55 320.548 90)
+			(at 252.984 297.688 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5890,7 +5890,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 215.1379 316.23 0)
+			(at 247.1421 300.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5901,7 +5901,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 217.17 313.69 0)
+			(at 245.11 303.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5912,7 +5912,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 313.69 0)
+			(at 245.11 303.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5923,7 +5923,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 217.17 318.77 0)
+			(at 245.11 298.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6172,7 +6172,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "06344795-472e-4cbf-ae84-30f26a4ce847")
-		(property "Reference" "S4_GP0"
+		(property "Reference" "S4_GP6"
 			(at 208.026 132.588 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6232,7 +6232,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S4_GP0")
+					(reference "S4_GP6")
 					(unit 1)
 				)
 			)
@@ -6250,8 +6250,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "06d41ce1-c72c-4451-8cae-65fb4a381dc7")
-		(property "Reference" "S7_GP5"
-			(at 150.114 318.008 90)
+		(property "Reference" "S7_GP13"
+			(at 150.876 318.008 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6310,7 +6310,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S7_GP5")
+					(reference "S7_GP13")
 					(unit 1)
 				)
 			)
@@ -6487,7 +6487,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0afa136b-1f04-4e71-bfc1-1a04eb0bea3e")
-		(property "Reference" "S4_GP6"
+		(property "Reference" "S4_GP12"
 			(at 251.714 152.908 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6547,7 +6547,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S4_GP6")
+					(reference "S4_GP12")
 					(unit 1)
 				)
 			)
@@ -6643,7 +6643,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0cccdbb3-b548-4ca8-9d38-9db740bdee1c")
-		(property "Reference" "S2_GP9"
+		(property "Reference" "S2_GP7"
 			(at 254.254 83.058 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6703,7 +6703,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S2_GP9")
+					(reference "S2_GP7")
 					(unit 1)
 				)
 			)
@@ -7041,7 +7041,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "132fc546-724d-41ba-aed8-21ebf5c03303")
-		(property "Reference" "S5_GP13"
+		(property "Reference" "S5_GP5"
 			(at 153.67 212.598 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7101,7 +7101,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S5_GP13")
+					(reference "S5_GP5")
 					(unit 1)
 				)
 			)
@@ -7119,8 +7119,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "13aeeb44-3de8-42cc-94a9-79e98c50859d")
-		(property "Reference" "S6_GP6"
-			(at 252.984 232.918 90)
+		(property "Reference" "S6_GP12"
+			(at 254 232.918 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7179,7 +7179,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S6_GP6")
+					(reference "S6_GP12")
 					(unit 1)
 				)
 			)
@@ -7762,8 +7762,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1bc34c55-6298-4951-adce-81856a0243cf")
-		(property "Reference" "S6_GP9"
-			(at 252.984 225.298 90)
+		(property "Reference" "S6_GP7"
+			(at 253.492 225.298 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7822,7 +7822,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S6_GP9")
+					(reference "S6_GP7")
 					(unit 1)
 				)
 			)
@@ -7840,8 +7840,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1d88a555-531b-40fa-ab63-d9fdba7f7493")
-		(property "Reference" "S5_GP8"
-			(at 152.654 227.838 90)
+		(property "Reference" "S5_GP10"
+			(at 153.924 227.838 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7900,7 +7900,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S5_GP8")
+					(reference "S5_GP10")
 					(unit 1)
 				)
 			)
@@ -7917,7 +7917,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1f56da14-593c-4637-9cf0-e8aded273e20")
-		(property "Reference" "S1_GP4"
+		(property "Reference" "S1_GP0"
 			(at 107.95 95.758 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7977,7 +7977,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S1_GP4")
+					(reference "S1_GP0")
 					(unit 1)
 				)
 			)
@@ -7995,8 +7995,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1f798428-3944-47af-8ca8-5aad3fc9778e")
-		(property "Reference" "S5_GP6"
-			(at 152.654 232.918 90)
+		(property "Reference" "S5_GP12"
+			(at 153.924 232.918 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8055,7 +8055,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S5_GP6")
+					(reference "S5_GP12")
 					(unit 1)
 				)
 			)
@@ -8072,7 +8072,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1fc50ca0-0e4d-4e46-b44d-1559a556f4d2")
-		(property "Reference" "S5_GP0"
+		(property "Reference" "S5_GP6"
 			(at 108.966 212.598 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8132,7 +8132,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S5_GP0")
+					(reference "S5_GP6")
 					(unit 1)
 				)
 			)
@@ -8149,7 +8149,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "233d7ef6-3a17-45a7-abdf-79b96183d9cb")
-		(property "Reference" "S3_GP0"
+		(property "Reference" "S3_GP6"
 			(at 108.966 135.128 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8209,7 +8209,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S3_GP0")
+					(reference "S3_GP6")
 					(unit 1)
 				)
 			)
@@ -8226,7 +8226,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "24f91427-acbf-4073-b17e-4d535c872c67")
-		(property "Reference" "S4_GP4"
+		(property "Reference" "S4_GP0"
 			(at 208.28 157.988 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8286,7 +8286,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S4_GP4")
+					(reference "S4_GP0")
 					(unit 1)
 				)
 			)
@@ -8294,7 +8294,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 217.17 313.69 90)
+		(at 217.17 306.07 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8304,7 +8304,7 @@
 		(dnp no)
 		(uuid "255d4e03-13e6-4dbe-9f78-56fdf8c40a53")
 		(property "Reference" "S8_GP3"
-			(at 209.296 312.928 90)
+			(at 209.296 305.308 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8314,7 +8314,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 215.1379 311.15 0)
+			(at 215.1379 303.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8325,7 +8325,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 217.17 308.61 0)
+			(at 217.17 300.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8336,7 +8336,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 308.61 0)
+			(at 217.17 300.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8347,7 +8347,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 217.17 313.69 0)
+			(at 217.17 306.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8536,8 +8536,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "271ca43d-f0d3-48b6-b953-bd72341f5a50")
-		(property "Reference" "S6_GP8"
-			(at 252.984 227.838 90)
+		(property "Reference" "S6_GP10"
+			(at 254 227.838 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8596,7 +8596,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S6_GP8")
+					(reference "S6_GP10")
 					(unit 1)
 				)
 			)
@@ -8840,7 +8840,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 245.11 308.61 270)
+		(at 245.11 303.53 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -8851,7 +8851,7 @@
 		(dnp no)
 		(uuid "2b2b8a54-0290-45e8-b07f-c5dba2d89663")
 		(property "Reference" "S8_GP9"
-			(at 252.984 307.848 90)
+			(at 252.984 302.768 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8861,7 +8861,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 247.1421 306.07 0)
+			(at 247.1421 300.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8872,7 +8872,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 245.11 303.53 0)
+			(at 245.11 298.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8883,7 +8883,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 303.53 0)
+			(at 245.11 298.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8894,7 +8894,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 245.11 308.61 0)
+			(at 245.11 303.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9006,7 +9006,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2c098516-d913-487a-9857-107d9a2d6d3f")
-		(property "Reference" "S1_GP11"
+		(property "Reference" "S1_GP9"
 			(at 152.146 77.978 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9066,7 +9066,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S1_GP11")
+					(reference "S1_GP9")
 					(unit 1)
 				)
 			)
@@ -9402,8 +9402,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3157b12f-3b88-4f0e-9ab7-dfe527fa99dc")
-		(property "Reference" "S7_GP6"
-			(at 150.114 315.468 90)
+		(property "Reference" "S7_GP12"
+			(at 150.876 315.468 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9462,7 +9462,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S7_GP6")
+					(reference "S7_GP12")
 					(unit 1)
 				)
 			)
@@ -9479,7 +9479,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3246b246-084c-4a9b-9e47-0cd7fdf01a0c")
-		(property "Reference" "S7_GP3"
+		(property "Reference" "S7_GP1"
 			(at 106.426 312.928 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9539,7 +9539,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S7_GP3")
+					(reference "S7_GP1")
 					(unit 1)
 				)
 			)
@@ -9556,7 +9556,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "32a20e60-364a-4e0c-9867-cb881d8556a3")
-		(property "Reference" "S2_GP0"
+		(property "Reference" "S2_GP6"
 			(at 210.566 70.358 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9616,7 +9616,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S2_GP0")
+					(reference "S2_GP6")
 					(unit 1)
 				)
 			)
@@ -9788,7 +9788,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "371a2660-f6cc-4e9a-89a0-0eaa90e491a3")
-		(property "Reference" "S1_GP13"
+		(property "Reference" "S1_GP5"
 			(at 152.4 70.358 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9848,7 +9848,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S1_GP13")
+					(reference "S1_GP5")
 					(unit 1)
 				)
 			)
@@ -9933,7 +9933,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 245.11 295.91 270)
+		(at 245.11 318.77 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -9944,7 +9944,7 @@
 		(dnp no)
 		(uuid "38434575-d57f-4d79-b5a6-84a13ca7a002")
 		(property "Reference" "S8_GP13"
-			(at 254 295.148 90)
+			(at 254 318.008 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9954,7 +9954,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 247.1421 293.37 0)
+			(at 247.1421 316.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9965,7 +9965,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 245.11 290.83 0)
+			(at 245.11 313.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9976,7 +9976,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 290.83 0)
+			(at 245.11 313.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9987,7 +9987,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 245.11 295.91 0)
+			(at 245.11 318.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10021,7 +10021,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3915bf67-89c5-45a8-ae60-11b99a7e6a89")
-		(property "Reference" "S1_GP7"
+		(property "Reference" "S1_GP11"
 			(at 151.384 88.138 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10081,7 +10081,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S1_GP7")
+					(reference "S1_GP11")
 					(unit 1)
 				)
 			)
@@ -10167,7 +10167,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 245.11 311.15 270)
+		(at 245.11 306.07 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -10178,7 +10178,7 @@
 		(dnp no)
 		(uuid "39d0fdd1-aaa2-4049-996a-358a43059250")
 		(property "Reference" "S8_GP8"
-			(at 252.984 310.388 90)
+			(at 252.984 305.308 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10188,7 +10188,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 247.1421 308.61 0)
+			(at 247.1421 303.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10199,7 +10199,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 245.11 306.07 0)
+			(at 245.11 300.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10210,7 +10210,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 306.07 0)
+			(at 245.11 300.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10221,7 +10221,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 245.11 311.15 0)
+			(at 245.11 306.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10254,7 +10254,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a11af21-5224-44a3-97e6-e956c6ff84c3")
-		(property "Reference" "S1_GP3"
+		(property "Reference" "S1_GP1"
 			(at 107.696 88.138 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10314,7 +10314,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S1_GP3")
+					(reference "S1_GP1")
 					(unit 1)
 				)
 			)
@@ -10332,7 +10332,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3b90c5d2-6116-4670-b8d5-261f098c2f73")
-		(property "Reference" "S7_GP9"
+		(property "Reference" "S7_GP7"
 			(at 150.114 307.848 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10392,7 +10392,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S7_GP9")
+					(reference "S7_GP7")
 					(unit 1)
 				)
 			)
@@ -10569,7 +10569,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3e0ab8b5-65a9-4550-a194-d24da9d546b5")
-		(property "Reference" "S3_GP4"
+		(property "Reference" "S3_GP0"
 			(at 109.22 160.528 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10629,7 +10629,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S3_GP4")
+					(reference "S3_GP0")
 					(unit 1)
 				)
 			)
@@ -10647,8 +10647,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "408fb9a9-d5a6-4fb7-a6cb-b8149ad3ac7a")
-		(property "Reference" "S5_GP7"
-			(at 152.654 230.378 90)
+		(property "Reference" "S5_GP11"
+			(at 153.924 230.378 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10707,7 +10707,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S5_GP7")
+					(reference "S5_GP11")
 					(unit 1)
 				)
 			)
@@ -10896,8 +10896,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "433bb793-136f-450b-bd6b-e779e4e3b572")
-		(property "Reference" "S5_GP5"
-			(at 152.654 235.458 90)
+		(property "Reference" "S5_GP13"
+			(at 153.924 235.458 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10956,7 +10956,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S5_GP5")
+					(reference "S5_GP13")
 					(unit 1)
 				)
 			)
@@ -11051,7 +11051,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "44bd7945-19b0-429f-92ea-09af6df3aacd")
-		(property "Reference" "S5_GP11"
+		(property "Reference" "S5_GP9"
 			(at 153.416 220.218 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11111,7 +11111,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S5_GP11")
+					(reference "S5_GP9")
 					(unit 1)
 				)
 			)
@@ -11129,8 +11129,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "45f58542-7fd9-4d26-8bfa-d9bac8759a97")
-		(property "Reference" "S6_GP12"
-			(at 254 215.138 90)
+		(property "Reference" "S6_GP4"
+			(at 253.492 215.138 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11189,7 +11189,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S6_GP12")
+					(reference "S6_GP4")
 					(unit 1)
 				)
 			)
@@ -11569,7 +11569,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4bd7306e-616c-4854-a80f-aacb26fc10df")
-		(property "Reference" "S5_GP4"
+		(property "Reference" "S5_GP0"
 			(at 109.22 237.998 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11629,7 +11629,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S5_GP4")
+					(reference "S5_GP0")
 					(unit 1)
 				)
 			)
@@ -11647,7 +11647,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4f00f700-fd53-4700-b4eb-b0da6bd6e37a")
-		(property "Reference" "S4_GP7"
+		(property "Reference" "S4_GP11"
 			(at 251.714 150.368 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11707,7 +11707,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S4_GP7")
+					(reference "S4_GP11")
 					(unit 1)
 				)
 			)
@@ -12082,7 +12082,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 245.11 313.69 270)
+		(at 245.11 308.61 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -12093,7 +12093,7 @@
 		(dnp no)
 		(uuid "5a557999-e897-420c-a11b-3c6fd3ebba05")
 		(property "Reference" "S8_GP7"
-			(at 252.984 312.928 90)
+			(at 252.984 307.848 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12103,7 +12103,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 247.1421 311.15 0)
+			(at 247.1421 306.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12114,7 +12114,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 245.11 308.61 0)
+			(at 245.11 303.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12125,7 +12125,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 308.61 0)
+			(at 245.11 303.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12136,7 +12136,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 245.11 313.69 0)
+			(at 245.11 308.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12410,7 +12410,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c675074-b701-4a29-9680-6ea82af8e48c")
-		(property "Reference" "S5_GP1"
+		(property "Reference" "S5_GP3"
 			(at 108.966 222.758 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12470,7 +12470,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S5_GP1")
+					(reference "S5_GP3")
 					(unit 1)
 				)
 			)
@@ -12661,7 +12661,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e7344ad-a2d6-4e84-9d2f-86a6818e1cf5")
-		(property "Reference" "S1_GP8"
+		(property "Reference" "S1_GP10"
 			(at 151.384 85.598 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12721,7 +12721,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S1_GP8")
+					(reference "S1_GP10")
 					(unit 1)
 				)
 			)
@@ -12738,7 +12738,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5ea7899d-e7c2-4b5c-9ccf-8fd0fbf34680")
-		(property "Reference" "S6_GP3"
+		(property "Reference" "S6_GP1"
 			(at 209.296 230.378 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12798,7 +12798,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S6_GP3")
+					(reference "S6_GP1")
 					(unit 1)
 				)
 			)
@@ -12816,7 +12816,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5f9f382f-c0db-4d25-b560-cbb8db84c666")
-		(property "Reference" "S1_GP9"
+		(property "Reference" "S1_GP7"
 			(at 151.384 83.058 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12876,7 +12876,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S1_GP9")
+					(reference "S1_GP7")
 					(unit 1)
 				)
 			)
@@ -12894,7 +12894,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5fed70aa-549f-421a-a2a0-4c0256a01b47")
-		(property "Reference" "S3_GP5"
+		(property "Reference" "S3_GP13"
 			(at 152.654 157.988 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12954,7 +12954,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S3_GP5")
+					(reference "S3_GP13")
 					(unit 1)
 				)
 			)
@@ -12972,7 +12972,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6015ad5e-bc5e-4e36-9bdc-546ff54fde68")
-		(property "Reference" "S3_GP10"
+		(property "Reference" "S3_GP8"
 			(at 153.416 145.288 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13032,7 +13032,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S3_GP10")
+					(reference "S3_GP8")
 					(unit 1)
 				)
 			)
@@ -13040,7 +13040,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 245.11 318.77 270)
+		(at 245.11 295.91 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -13051,7 +13051,7 @@
 		(dnp no)
 		(uuid "61f0a7f9-99ea-45db-a5cf-a81d3d4ce16b")
 		(property "Reference" "S8_GP5"
-			(at 252.984 318.008 90)
+			(at 252.984 295.148 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13061,7 +13061,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 247.1421 316.23 0)
+			(at 247.1421 293.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13072,7 +13072,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 245.11 313.69 0)
+			(at 245.11 290.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13083,7 +13083,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 313.69 0)
+			(at 245.11 290.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13094,7 +13094,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 245.11 318.77 0)
+			(at 245.11 295.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13450,7 +13450,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "64584ccc-6c17-4acd-b9e7-ef52c10da23e")
-		(property "Reference" "S1_GP5"
+		(property "Reference" "S1_GP13"
 			(at 151.384 93.218 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13510,7 +13510,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S1_GP5")
+					(reference "S1_GP13")
 					(unit 1)
 				)
 			)
@@ -13608,7 +13608,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "64c33751-3174-4ba9-8762-f52fd351a8f3")
-		(property "Reference" "S3_GP13"
+		(property "Reference" "S3_GP5"
 			(at 153.67 135.128 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13668,7 +13668,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S3_GP13")
+					(reference "S3_GP5")
 					(unit 1)
 				)
 			)
@@ -13765,7 +13765,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "665acdd9-b6ad-46cc-8391-99b226703531")
-		(property "Reference" "S4_GP12"
+		(property "Reference" "S4_GP4"
 			(at 252.73 135.128 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13825,7 +13825,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S4_GP12")
+					(reference "S4_GP4")
 					(unit 1)
 				)
 			)
@@ -13911,7 +13911,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 245.11 298.45 270)
+		(at 245.11 316.23 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -13922,7 +13922,7 @@
 		(dnp no)
 		(uuid "6c179ebe-2aad-46a8-b06e-3306a4a7e8aa")
 		(property "Reference" "S8_GP12"
-			(at 254 297.688 90)
+			(at 254 315.468 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13932,7 +13932,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 247.1421 295.91 0)
+			(at 247.1421 313.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13943,7 +13943,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 245.11 293.37 0)
+			(at 245.11 311.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13954,7 +13954,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 293.37 0)
+			(at 245.11 311.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13965,7 +13965,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 245.11 298.45 0)
+			(at 245.11 316.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13999,7 +13999,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6d00fec2-3d0b-4f7f-be09-7836063f385c")
-		(property "Reference" "S4_GP13"
+		(property "Reference" "S4_GP5"
 			(at 252.73 132.588 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14059,7 +14059,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S4_GP13")
+					(reference "S4_GP5")
 					(unit 1)
 				)
 			)
@@ -14076,7 +14076,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6f021225-c0ca-408a-b6fa-0c27bd60f9d9")
-		(property "Reference" "S5_GP3"
+		(property "Reference" "S5_GP1"
 			(at 108.966 230.378 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14136,7 +14136,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S5_GP3")
+					(reference "S5_GP1")
 					(unit 1)
 				)
 			)
@@ -14154,7 +14154,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6f0bfbb0-32e1-429e-8003-c33a1836ff02")
-		(property "Reference" "S4_GP11"
+		(property "Reference" "S4_GP9"
 			(at 252.476 140.208 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14214,7 +14214,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S4_GP11")
+					(reference "S4_GP9")
 					(unit 1)
 				)
 			)
@@ -14232,8 +14232,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7114b4ff-2f20-4320-ac9b-5e7906dece32")
-		(property "Reference" "S6_GP10"
-			(at 253.746 222.758 90)
+		(property "Reference" "S6_GP8"
+			(at 253.492 222.758 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14292,7 +14292,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S6_GP10")
+					(reference "S6_GP8")
 					(unit 1)
 				)
 			)
@@ -14484,7 +14484,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "754ddc39-128b-4288-aee8-a696c36b9364")
-		(property "Reference" "S2_GP6"
+		(property "Reference" "S2_GP12"
 			(at 254.254 90.678 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14544,7 +14544,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S2_GP6")
+					(reference "S2_GP12")
 					(unit 1)
 				)
 			)
@@ -14552,7 +14552,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 217.17 306.07 90)
+		(at 217.17 313.69 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14562,7 +14562,7 @@
 		(dnp no)
 		(uuid "75cf17b1-4acc-402f-898a-f74b98f62062")
 		(property "Reference" "S8_GP1"
-			(at 209.296 305.308 90)
+			(at 209.296 312.928 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14572,7 +14572,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 215.1379 303.53 0)
+			(at 215.1379 311.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14583,7 +14583,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 217.17 300.99 0)
+			(at 217.17 308.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14594,7 +14594,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 300.99 0)
+			(at 217.17 308.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14605,7 +14605,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 217.17 306.07 0)
+			(at 217.17 313.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14639,8 +14639,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77343207-7847-4035-bc3b-1405da50f081")
-		(property "Reference" "S7_GP12"
-			(at 151.13 297.688 90)
+		(property "Reference" "S7_GP4"
+			(at 150.114 297.688 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14699,7 +14699,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S7_GP12")
+					(reference "S7_GP4")
 					(unit 1)
 				)
 			)
@@ -15006,7 +15006,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7f2aa320-7946-4c78-be5a-b65949108270")
-		(property "Reference" "S2_GP13"
+		(property "Reference" "S2_GP5"
 			(at 255.27 70.358 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15066,7 +15066,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S2_GP13")
+					(reference "S2_GP5")
 					(unit 1)
 				)
 			)
@@ -15074,7 +15074,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 217.17 295.91 90)
+		(at 217.17 318.77 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15084,7 +15084,7 @@
 		(dnp no)
 		(uuid "8039d5a7-7cf2-49cc-be53-0796c1371479")
 		(property "Reference" "S8_GP0"
-			(at 209.296 295.148 90)
+			(at 210.566 320.802 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15094,7 +15094,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 215.1379 293.37 0)
+			(at 215.1379 316.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15105,7 +15105,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 217.17 290.83 0)
+			(at 217.17 313.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15116,7 +15116,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 290.83 0)
+			(at 217.17 313.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15127,7 +15127,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 217.17 295.91 0)
+			(at 217.17 318.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15160,7 +15160,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "82d1c7e6-28eb-495f-8ebf-eee8a7712473")
-		(property "Reference" "S7_GP0"
+		(property "Reference" "S7_GP6"
 			(at 106.426 295.148 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15220,7 +15220,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S7_GP0")
+					(reference "S7_GP6")
 					(unit 1)
 				)
 			)
@@ -15315,8 +15315,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "856958c2-74a1-47a7-89d6-4eceb3bf0eb0")
-		(property "Reference" "S6_GP5"
-			(at 252.984 235.458 90)
+		(property "Reference" "S6_GP13"
+			(at 254 235.458 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15375,7 +15375,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S6_GP5")
+					(reference "S6_GP13")
 					(unit 1)
 				)
 			)
@@ -15393,7 +15393,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "866603c6-54b2-4366-a721-b8ea499e8323")
-		(property "Reference" "S1_GP12"
+		(property "Reference" "S1_GP4"
 			(at 152.4 72.898 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15453,7 +15453,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S1_GP12")
+					(reference "S1_GP4")
 					(unit 1)
 				)
 			)
@@ -15605,7 +15605,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "88ea49aa-ae7f-40db-8127-75cc0c3f8612")
-		(property "Reference" "S4_GP8"
+		(property "Reference" "S4_GP10"
 			(at 251.714 147.828 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15665,7 +15665,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S4_GP8")
+					(reference "S4_GP10")
 					(unit 1)
 				)
 			)
@@ -15924,7 +15924,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8bd4a629-7106-4b0f-81d7-9e576e1c95de")
-		(property "Reference" "S5_GP12"
+		(property "Reference" "S5_GP4"
 			(at 153.67 215.138 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15984,7 +15984,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S5_GP12")
+					(reference "S5_GP4")
 					(unit 1)
 				)
 			)
@@ -16080,7 +16080,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8c8a3d74-7ca2-4ad6-a2b6-565a8a1ef1d7")
-		(property "Reference" "S3_GP1"
+		(property "Reference" "S3_GP3"
 			(at 108.966 145.288 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16140,7 +16140,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S3_GP1")
+					(reference "S3_GP3")
 					(unit 1)
 				)
 			)
@@ -16157,7 +16157,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8cfb162a-fde5-4f3d-8afc-c2fc74149efc")
-		(property "Reference" "S4_GP3"
+		(property "Reference" "S4_GP1"
 			(at 208.026 150.368 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16217,7 +16217,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S4_GP3")
+					(reference "S4_GP1")
 					(unit 1)
 				)
 			)
@@ -16369,8 +16369,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "917ccc43-2aa1-4730-b2ba-0b422afbbf52")
-		(property "Reference" "S7_GP8"
-			(at 150.114 310.388 90)
+		(property "Reference" "S7_GP10"
+			(at 150.876 310.388 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16429,7 +16429,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S7_GP8")
+					(reference "S7_GP10")
 					(unit 1)
 				)
 			)
@@ -16524,7 +16524,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "92b05510-10bf-4aa2-87af-0360587be30b")
-		(property "Reference" "S3_GP8"
+		(property "Reference" "S3_GP10"
 			(at 152.654 150.368 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16584,7 +16584,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S3_GP8")
+					(reference "S3_GP10")
 					(unit 1)
 				)
 			)
@@ -16679,7 +16679,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9590d11f-4aab-444e-8998-705303d30f90")
-		(property "Reference" "S5_GP10"
+		(property "Reference" "S5_GP8"
 			(at 153.416 222.758 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16739,7 +16739,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S5_GP10")
+					(reference "S5_GP8")
 					(unit 1)
 				)
 			)
@@ -16826,8 +16826,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 245.11 316.23 270)
-		(mirror x)
+		(at 217.17 295.91 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16837,7 +16836,7 @@
 		(dnp no)
 		(uuid "9bb48552-899a-430f-b925-9f122761efd0")
 		(property "Reference" "S8_GP6"
-			(at 252.984 315.468 90)
+			(at 209.296 295.148 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16847,7 +16846,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 247.1421 313.69 0)
+			(at 215.1379 293.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16858,7 +16857,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 245.11 311.15 0)
+			(at 217.17 290.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16869,7 +16868,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 311.15 0)
+			(at 217.17 290.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16880,7 +16879,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 245.11 316.23 0)
+			(at 217.17 295.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16992,7 +16991,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9ed0f093-72c9-4183-b473-c8a47100ac27")
-		(property "Reference" "S1_GP10"
+		(property "Reference" "S1_GP8"
 			(at 152.146 80.518 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17052,7 +17051,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S1_GP10")
+					(reference "S1_GP8")
 					(unit 1)
 				)
 			)
@@ -17070,7 +17069,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9f641ea8-a1f5-4b7b-ac0e-f82652c95c69")
-		(property "Reference" "S4_GP10"
+		(property "Reference" "S4_GP8"
 			(at 252.476 142.748 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17130,7 +17129,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S4_GP10")
+					(reference "S4_GP8")
 					(unit 1)
 				)
 			)
@@ -17227,7 +17226,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a0676d43-8b4d-484a-9b27-eb1243e76f1f")
-		(property "Reference" "S3_GP12"
+		(property "Reference" "S3_GP4"
 			(at 153.67 137.668 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17287,7 +17286,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S3_GP12")
+					(reference "S3_GP4")
 					(unit 1)
 				)
 			)
@@ -17305,8 +17304,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a078de4e-2b74-4743-bf20-e8003d82868a")
-		(property "Reference" "S6_GP13"
-			(at 254 212.598 90)
+		(property "Reference" "S6_GP5"
+			(at 253.492 212.598 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17365,7 +17364,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S6_GP13")
+					(reference "S6_GP5")
 					(unit 1)
 				)
 			)
@@ -17755,8 +17754,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a67e95f2-457b-428b-a54b-9c37271a77c9")
-		(property "Reference" "S7_GP10"
-			(at 150.876 305.308 90)
+		(property "Reference" "S7_GP8"
+			(at 150.114 305.308 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17815,7 +17814,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S7_GP10")
+					(reference "S7_GP8")
 					(unit 1)
 				)
 			)
@@ -17967,7 +17966,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a82e2bc3-f39e-4a0d-9d2d-f79d5c1b8585")
-		(property "Reference" "S2_GP8"
+		(property "Reference" "S2_GP10"
 			(at 254.254 85.598 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18027,7 +18026,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S2_GP8")
+					(reference "S2_GP10")
 					(unit 1)
 				)
 			)
@@ -18358,7 +18357,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad2d1b13-3f8b-4e78-9579-ea296cbbba98")
-		(property "Reference" "S3_GP3"
+		(property "Reference" "S3_GP1"
 			(at 108.966 152.908 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18418,7 +18417,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S3_GP3")
+					(reference "S3_GP1")
 					(unit 1)
 				)
 			)
@@ -18436,7 +18435,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ae44dc32-91c3-4494-ac41-10b0fc456d46")
-		(property "Reference" "S4_GP9"
+		(property "Reference" "S4_GP7"
 			(at 251.714 145.288 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18496,7 +18495,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S4_GP9")
+					(reference "S4_GP7")
 					(unit 1)
 				)
 			)
@@ -18513,7 +18512,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "af46ea9c-45d8-4e35-b778-b0a46c8c2b64")
-		(property "Reference" "S2_GP3"
+		(property "Reference" "S2_GP1"
 			(at 210.566 88.138 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18573,7 +18572,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S2_GP3")
+					(reference "S2_GP1")
 					(unit 1)
 				)
 			)
@@ -18673,7 +18672,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b15c5f5c-f1fe-4761-9511-544b034fab84")
-		(property "Reference" "S2_GP11"
+		(property "Reference" "S2_GP9"
 			(at 255.016 77.978 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18733,7 +18732,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S2_GP11")
+					(reference "S2_GP9")
 					(unit 1)
 				)
 			)
@@ -18751,7 +18750,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b37c4a35-9274-459b-9ebf-08338f3be7b2")
-		(property "Reference" "S3_GP9"
+		(property "Reference" "S3_GP7"
 			(at 152.654 147.828 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18811,7 +18810,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S3_GP9")
+					(reference "S3_GP7")
 					(unit 1)
 				)
 			)
@@ -18829,8 +18828,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b3c21fe3-df6e-4d93-b5ae-d0d091f3a070")
-		(property "Reference" "S6_GP11"
-			(at 253.746 220.218 90)
+		(property "Reference" "S6_GP9"
+			(at 253.492 220.218 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18889,7 +18888,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S6_GP11")
+					(reference "S6_GP9")
 					(unit 1)
 				)
 			)
@@ -19065,7 +19064,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b5a8d551-9a22-443c-847d-d2300e04f191")
-		(property "Reference" "S7_GP4"
+		(property "Reference" "S7_GP0"
 			(at 106.68 320.548 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19125,7 +19124,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S7_GP4")
+					(reference "S7_GP0")
 					(unit 1)
 				)
 			)
@@ -19143,8 +19142,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b5c240ac-6113-4b45-875f-5d2c34303400")
-		(property "Reference" "S5_GP9"
-			(at 152.654 225.298 90)
+		(property "Reference" "S5_GP7"
+			(at 153.416 225.298 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19203,7 +19202,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S5_GP9")
+					(reference "S5_GP7")
 					(unit 1)
 				)
 			)
@@ -19220,7 +19219,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b5df5b79-b89a-4021-9c7e-f29d4a8eb7d9")
-		(property "Reference" "S1_GP1"
+		(property "Reference" "S1_GP3"
 			(at 107.696 80.518 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19280,7 +19279,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S1_GP1")
+					(reference "S1_GP3")
 					(unit 1)
 				)
 			)
@@ -19297,7 +19296,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b5e7a0ba-3562-4872-8984-cc201db4cd51")
-		(property "Reference" "S6_GP4"
+		(property "Reference" "S6_GP0"
 			(at 209.55 237.998 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19357,7 +19356,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S6_GP4")
+					(reference "S6_GP0")
 					(unit 1)
 				)
 			)
@@ -19447,7 +19446,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 245.11 303.53 270)
+		(at 245.11 313.69 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -19458,7 +19457,7 @@
 		(dnp no)
 		(uuid "b6b12c3c-5d58-4073-8759-76b04829c22c")
 		(property "Reference" "S8_GP11"
-			(at 253.746 302.768 90)
+			(at 253.746 312.928 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19468,7 +19467,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 247.1421 300.99 0)
+			(at 247.1421 311.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19479,7 +19478,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 245.11 298.45 0)
+			(at 245.11 308.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19490,7 +19489,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 298.45 0)
+			(at 245.11 308.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19501,7 +19500,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 245.11 303.53 0)
+			(at 245.11 313.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19611,7 +19610,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b720a229-addd-4b1f-bf54-e46b96bb8338")
-		(property "Reference" "S6_GP0"
+		(property "Reference" "S6_GP6"
 			(at 209.296 212.598 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19671,7 +19670,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S6_GP0")
+					(reference "S6_GP6")
 					(unit 1)
 				)
 			)
@@ -19689,7 +19688,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b7d727d1-7522-4331-81ba-1ae857d1b446")
-		(property "Reference" "S3_GP7"
+		(property "Reference" "S3_GP11"
 			(at 152.654 152.908 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19749,7 +19748,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S3_GP7")
+					(reference "S3_GP11")
 					(unit 1)
 				)
 			)
@@ -19767,8 +19766,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b8957ce8-9164-4561-925e-baea25d2d357")
-		(property "Reference" "S7_GP11"
-			(at 150.876 302.768 90)
+		(property "Reference" "S7_GP9"
+			(at 150.114 302.768 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19827,7 +19826,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S7_GP11")
+					(reference "S7_GP9")
 					(unit 1)
 				)
 			)
@@ -19922,7 +19921,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bbaa8c53-8ff2-4cd0-a95f-d532a5c5c9cc")
-		(property "Reference" "S2_GP1"
+		(property "Reference" "S2_GP3"
 			(at 210.566 80.518 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19982,7 +19981,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S2_GP1")
+					(reference "S2_GP3")
 					(unit 1)
 				)
 			)
@@ -19999,7 +19998,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bc76a498-bd26-4a1e-9d62-e53617b2ba08")
-		(property "Reference" "S7_GP1"
+		(property "Reference" "S7_GP3"
 			(at 106.426 305.308 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20059,7 +20058,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S7_GP1")
+					(reference "S7_GP3")
 					(unit 1)
 				)
 			)
@@ -20076,7 +20075,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bcbb5799-22ab-4bfc-9742-6bcc0cf9fca8")
-		(property "Reference" "S6_GP1"
+		(property "Reference" "S6_GP3"
 			(at 209.296 222.758 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20136,7 +20135,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S6_GP1")
+					(reference "S6_GP3")
 					(unit 1)
 				)
 			)
@@ -20233,7 +20232,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd298da1-273d-4577-87ec-83cec7557930")
-		(property "Reference" "S3_GP11"
+		(property "Reference" "S3_GP9"
 			(at 153.416 142.748 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20293,7 +20292,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S3_GP11")
+					(reference "S3_GP9")
 					(unit 1)
 				)
 			)
@@ -20392,7 +20391,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bfeb1685-2e10-4c96-8972-f81f734e0384")
-		(property "Reference" "S4_GP1"
+		(property "Reference" "S4_GP3"
 			(at 208.026 142.748 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20452,7 +20451,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S4_GP1")
+					(reference "S4_GP3")
 					(unit 1)
 				)
 			)
@@ -20470,7 +20469,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c18c5708-2e01-4ac6-9db0-082a79d8c3d9")
-		(property "Reference" "S2_GP12"
+		(property "Reference" "S2_GP4"
 			(at 255.27 72.898 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20530,7 +20529,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S2_GP12")
+					(reference "S2_GP4")
 					(unit 1)
 				)
 			)
@@ -20764,8 +20763,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c63db7c9-0b73-43f2-9cec-96b4d7c59802")
-		(property "Reference" "S7_GP7"
-			(at 150.114 312.928 90)
+		(property "Reference" "S7_GP11"
+			(at 150.876 312.928 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20824,7 +20823,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S7_GP7")
+					(reference "S7_GP11")
 					(unit 1)
 				)
 			)
@@ -20922,7 +20921,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ca545a0b-90c2-40e1-9958-62375f5db30f")
-		(property "Reference" "S4_GP5"
+		(property "Reference" "S4_GP13"
 			(at 251.714 155.448 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20982,7 +20981,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S4_GP5")
+					(reference "S4_GP13")
 					(unit 1)
 				)
 			)
@@ -21413,7 +21412,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d3901116-cbc7-4bd6-81b4-d01fd77635dd")
-		(property "Reference" "S3_GP6"
+		(property "Reference" "S3_GP12"
 			(at 152.654 155.448 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21473,7 +21472,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S3_GP6")
+					(reference "S3_GP12")
 					(unit 1)
 				)
 			)
@@ -21490,7 +21489,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d62ac0c7-ec87-48f8-85d8-ba88361ba830")
-		(property "Reference" "S2_GP4"
+		(property "Reference" "S2_GP0"
 			(at 210.82 95.758 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21550,7 +21549,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S2_GP4")
+					(reference "S2_GP0")
 					(unit 1)
 				)
 			)
@@ -21558,7 +21557,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 245.11 306.07 270)
+		(at 245.11 311.15 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -21569,7 +21568,7 @@
 		(dnp no)
 		(uuid "d93c974d-18de-4e77-8b29-3149db5f4c85")
 		(property "Reference" "S8_GP10"
-			(at 253.746 305.308 90)
+			(at 253.746 310.388 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21579,7 +21578,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 247.1421 303.53 0)
+			(at 247.1421 308.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21590,7 +21589,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 245.11 300.99 0)
+			(at 245.11 306.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21601,7 +21600,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 300.99 0)
+			(at 245.11 306.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21612,7 +21611,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 245.11 306.07 0)
+			(at 245.11 311.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21646,7 +21645,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dd460a36-37f0-48df-aae0-0967c05e975e")
-		(property "Reference" "S2_GP5"
+		(property "Reference" "S2_GP13"
 			(at 254.254 93.218 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21706,7 +21705,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S2_GP5")
+					(reference "S2_GP13")
 					(unit 1)
 				)
 			)
@@ -21724,8 +21723,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dd9ee65a-d61b-4a74-8343-54a149cec62c")
-		(property "Reference" "S7_GP13"
-			(at 151.13 295.148 90)
+		(property "Reference" "S7_GP5"
+			(at 150.114 295.148 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21784,7 +21783,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S7_GP13")
+					(reference "S7_GP5")
 					(unit 1)
 				)
 			)
@@ -22355,7 +22354,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ecd349e2-8a6c-4acd-938f-23ca8e587f4d")
-		(property "Reference" "S2_GP10"
+		(property "Reference" "S2_GP8"
 			(at 255.016 80.518 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22415,7 +22414,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S2_GP10")
+					(reference "S2_GP8")
 					(unit 1)
 				)
 			)
@@ -22446,6 +22445,7 @@
 		)
 		(property "Value" "+3.3V"
 			(at 204.47 325.12 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22511,8 +22511,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eeacc709-70d7-4dcd-9600-798b5c32fbf4")
-		(property "Reference" "S6_GP7"
-			(at 252.984 230.378 90)
+		(property "Reference" "S6_GP11"
+			(at 254 230.378 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22571,7 +22571,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S6_GP7")
+					(reference "S6_GP11")
 					(unit 1)
 				)
 			)
@@ -22588,7 +22588,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f0263f42-70b5-4b3f-b3c5-487cf3371818")
-		(property "Reference" "S1_GP0"
+		(property "Reference" "S1_GP6"
 			(at 107.696 70.358 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22648,7 +22648,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S1_GP0")
+					(reference "S1_GP6")
 					(unit 1)
 				)
 			)
@@ -22907,7 +22907,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f40d8c2e-abfa-4dff-a6fe-2786eaa43538")
-		(property "Reference" "S2_GP7"
+		(property "Reference" "S2_GP11"
 			(at 254.254 88.138 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22967,7 +22967,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S2_GP7")
+					(reference "S2_GP11")
 					(unit 1)
 				)
 			)
@@ -23119,7 +23119,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f50acf15-31e3-486e-b7dc-ee7a5d0bac79")
-		(property "Reference" "S1_GP6"
+		(property "Reference" "S1_GP12"
 			(at 151.384 90.678 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23179,7 +23179,7 @@
 		(instances
 			(project "business_card_v2"
 				(path "/7b5bf991-0ab1-491f-9a8e-96b741421ddc"
-					(reference "S1_GP6")
+					(reference "S1_GP12")
 					(unit 1)
 				)
 			)
