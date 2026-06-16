@@ -5208,7 +5208,7 @@
 		)
 		(uuid "fe4bfbe7-c1d3-424d-8eb2-4be504998200")
 	)
-	(label "NRST_S6"
+	(label "NRST_S4"
 		(at 469.9 200.66 180)
 		(effects
 			(font
@@ -5218,7 +5218,7 @@
 		)
 		(uuid "02b8465f-c975-440c-a087-c49f1f80a870")
 	)
-	(label "NRST_S1"
+	(label "NRST_S3"
 		(at 513.08 205.74 0)
 		(effects
 			(font
@@ -5368,7 +5368,7 @@
 		)
 		(uuid "2e836f49-6472-47b5-bffd-a1e6e7b4d400")
 	)
-	(label "NRST_S8"
+	(label "NRST_S7"
 		(at 469.9 205.74 180)
 		(effects
 			(font
@@ -5448,7 +5448,7 @@
 		)
 		(uuid "50bf8fcd-71da-45d4-8c6c-4fb61bcef173")
 	)
-	(label "NRST_S3"
+	(label "NRST_S1"
 		(at 513.08 210.82 0)
 		(effects
 			(font
@@ -5548,7 +5548,7 @@
 		)
 		(uuid "84481813-fbcd-4ca4-aa1e-780009a5d32e")
 	)
-	(label "NRST_S4"
+	(label "NRST_S8"
 		(at 469.9 213.36 180)
 		(effects
 			(font
@@ -5738,7 +5738,7 @@
 		)
 		(uuid "c8905b3f-4284-4e92-af02-c4be42a5290c")
 	)
-	(label "NRST_S7"
+	(label "NRST_S6"
 		(at 469.9 203.2 180)
 		(effects
 			(font
